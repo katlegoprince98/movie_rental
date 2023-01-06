@@ -10,7 +10,7 @@
 </head>
 <body class="body">
     <div class="main">
-<form>
+<form method="post" action="controll.php">
 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">First name</label>
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
