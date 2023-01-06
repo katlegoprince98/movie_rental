@@ -18,8 +18,13 @@
             ?>
             <script>
                 window.alert("Invalid username or password");
+                window.location.href = "../index.php";
             </script>
             <?php
         }
     }
+    if(isset($SESSION['email'])){
+        header("Location:user/index.php");
+    }
+     
 ?>
