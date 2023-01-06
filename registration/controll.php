@@ -19,7 +19,7 @@
     ?>
     <script>
         window.alert("Successfully registered, you can login in now.");
-        window.location("../index.php");
+        window.location.href = "../index.php";
     </script>
     <?php
    }

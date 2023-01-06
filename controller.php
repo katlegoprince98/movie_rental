@@ -14,6 +14,12 @@
         if(is_array($row)){
            $SESSION['email'] = $row['email'];
            $SESSION['password'] = $row['password'];
+        }else{
+            ?>
+            <script>
+                window.alert("Invalid username or password");
+            </script>
+            <?php
         }
     }
 ?>
