@@ -22,6 +22,9 @@
   </div>
   
   <button type="submit" class="btn btn-primary">Submit</button>
+  <div class="register">
+    <p>Don't have an account? Click <a href="registration/registration.php">here</a> to register</p>
+  </div>
 </form>
 </div>
 </body>
