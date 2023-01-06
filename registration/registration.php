@@ -46,7 +46,7 @@
     <input type="password" name="password"  class="form-control" id="exampleInputPassword1">
   </div>
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" name="submit"  class="btn btn-primary">Submit</button>
   <div class="register">
     <p>Already have an account? Click <a href="../index.php">here</a> to login</p>
   </div>
