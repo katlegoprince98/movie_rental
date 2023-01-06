@@ -15,6 +15,13 @@
     //insert values
     $query = "INSERT INTO member (surname, first_name,address,phone_no,email,bank_details,password)
               VALUES ('$surname','$name','$address','$phone','$email','$bank','$password')";
+    mysqli_query($conn, $query);
+    ?>
+    <script>
+        window.alert("Successfully registered, you can login in now.");
+        window.location("../index.php");
+    </script>
+    <?php
    }
 
 ?>
