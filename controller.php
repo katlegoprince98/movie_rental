@@ -6,7 +6,7 @@
         $email = $_POST['email'];
         $password = $_POST['password'];
 
-        $select = "SELECT * FROM memeber WHERE email = '$email' AND password = '$password";
+        $select = "SELECT * FROM member WHERE email = '$email' AND password = '$password";
         $result = mysqli_query($conn,$select);
 
         $row = mysqli_fetch_array($result);
